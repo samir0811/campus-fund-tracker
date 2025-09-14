@@ -178,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Kanishka Meddegoda**
 - GitHub: [@kanishkaGayan](https://github.com/kanishkaGayan)
 - Email: gayanMedde2022@gmail.com
 
