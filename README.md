@@ -52,7 +52,7 @@ A modern, responsive web application for tracking student fund collections with 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/campus-fund-tracker.git
+   git clone https://github.com/kanishkaGayan/campus-fund-tracker.git
    cd campus-fund-tracker
    ```
 
