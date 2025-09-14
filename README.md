@@ -95,7 +95,6 @@ A modern, responsive web application for tracking student fund collections with 
 campus-fund-tracker/
 ├── index.html          # Main application file
 ├── script.js          # Core JavaScript functionality
-├── requirements.txt   # Python dependencies (if needed)
 ├── README.md         # This file
 └── assets/           # (Optional) Additional assets
 ```
@@ -124,17 +123,6 @@ const MONTHLY_PAYMENT = 500; // Change this value
 const MAX_LOGIN_ATTEMPTS = 3;
 const LOCKOUT_DURATION = 24 * 60 * 60 * 1000; // 24 hours
 ```
-
-## 🖥️ Screenshots
-
-### Dashboard Overview
-![Dashboard](https://via.placeholder.com/800x400/1e1e1e/e9ecef?text=Dashboard+Overview)
-
-### Student Management
-![Student List](https://via.placeholder.com/800x400/1e1e1e/e9ecef?text=Student+Management)
-
-### Payment History
-![Payment History](https://via.placeholder.com/800x400/1e1e1e/e9ecef?text=Payment+History+Modal)
 
 ## 🛠️ Technologies Used
 
@@ -191,8 +179,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@kanishkaGayan](https://github.com/kanishkaGayan)
+- Email: gayanMedde2022@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -205,16 +193,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/campus-fund-tracker/issues) page
+1. Check the [Issues](https://github.com/kanishkaGayan/campus-fund-tracker.git) page
 2. Create a new issue with detailed information
-3. Contact the maintainer at your.email@example.com
-
-## 🔄 Version History
-
-- **v2.0** - Dark theme redesign, enhanced security, payment history modal
-- **v1.5** - Added authentication system and login attempt limiting
-- **v1.2** - Implemented auto-formatting and improved UI
-- **v1.0** - Initial release with basic functionality
+3. Contact the maintainer at gayanMedde2022@gmail.com
 
 ---
 
